@@ -7,20 +7,23 @@
 //
 
 import Cocoa
+import SQLite
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
-
-
+    var mainWindowController: MainWindowController!
 
     func applicationDidFinishLaunching(_ aNotification: Notification) {
-        // Insert code here to initialize your application
+        let mainViewController = LaunchpadViewController()
+        let mainWindow = NSWindow(contentViewController: mainViewController)
+        mainWindow.title = "生产零件管理系统"
+        mainWindowController = MainWindowController(window: mainWindow)
+        mainWindowController.showWindow(self)
     }
 
     func applicationWillTerminate(_ aNotification: Notification) {
         // Insert code here to tear down your application
     }
-
-
+    
 }
 

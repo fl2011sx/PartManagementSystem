@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>btn1</key>
+	<dict>
+		<key>name</key>
+		<string>零件管理</string>
+		<key>imagePath</key>
+		<string>MainManagement.png</string>
+		<key>targetFunction</key>
+		<string>openFileChooseWindow</string>
+	</dict>
+	<key>btn2</key>
+	<dict>
+		<key>name</key>
+		<string>下单购买</string>
+		<key>imagePath</key>
+		<string>buy.png</string>
+		<key>targetFunction</key>
+		<string>openBuyWindow</string>
+	</dict>
+	<key>btn3</key>
+	<dict>
+		<key>name</key>
+		<string>查看订单</string>
+		<key>imagePath</key>
+		<string>show.png</string>
+		<key>targetFunction</key>
+		<string>showPurches</string>
+	</dict>
+	<key>btn4</key>
+	<dict>
+		<key>name</key>
+		<string>文件备份</string>
+		<key>imagePath</key>
+		<string>FileChannel.png</string>
+		<key>targetFunction</key>
+		<string>fileManage</string>
+	</dict>
+	<key>btn5</key>
+	<dict>
+		<key>name</key>
+		<string>项目文件管理</string>
+		<key>imagePath</key>
+		<string>manageFile.png</string>
+		<key>targetFunction</key>
+		<string>manageFile</string>
+	</dict>
+</dict>
+</plist>

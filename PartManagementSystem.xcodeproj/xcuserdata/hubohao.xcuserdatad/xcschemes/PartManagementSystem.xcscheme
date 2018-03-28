@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75ED3C071EED13C800C53A8A"
+               BuildableName = "PartManagementSystem.app"
+               BlueprintName = "PartManagementSystem"
+               ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75ED3C181EED13C800C53A8A"
+               BuildableName = "PartManagementSystemTests.xctest"
+               BlueprintName = "PartManagementSystemTests"
+               ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "75ED3C231EED13C800C53A8A"
+               BuildableName = "PartManagementSystemUITests.xctest"
+               BlueprintName = "PartManagementSystemUITests"
+               ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "75ED3C071EED13C800C53A8A"
+            BuildableName = "PartManagementSystem.app"
+            BlueprintName = "PartManagementSystem"
+            ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "75ED3C071EED13C800C53A8A"
+            BuildableName = "PartManagementSystem.app"
+            BlueprintName = "PartManagementSystem"
+            ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "75ED3C071EED13C800C53A8A"
+            BuildableName = "PartManagementSystem.app"
+            BlueprintName = "PartManagementSystem"
+            ReferencedContainer = "container:PartManagementSystem.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
